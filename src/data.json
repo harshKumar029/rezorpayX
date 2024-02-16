@@ -1,0 +1,72 @@
+[
+    {
+        "name": "John Doe",
+        "type": "Customer",
+        "phone": "+1234567890",
+        "email": "john.doe@example.com",
+        "contactId": "C123"
+    },
+    {
+        "name": "Jane Smith",
+        "type": "Vendor",
+        "phone": "+1987654321",
+        "email": "jane.smith@example.com",
+        "contactId": "V456"
+    },
+    {
+        "name": "Bob Brown",
+        "type": "Customer",
+        "phone": "+15556667777",
+        "email": "bob.brown@example.com",
+        "contactId": "C234"
+    },
+    {
+        "name": "Emily Davis",
+        "type": "Vendor",
+        "phone": "+14443332222",
+        "email": "emily.davis@example.com",
+        "contactId": "V567"
+    },
+    {
+        "name": "soni Davis",
+        "type": "Vendor",
+        "phone": "+14443332222",
+        "email": "soni.davis@example.com",
+        "contactId": "V567"
+    },
+    {
+        "name": "Mic Wilson",
+        "type": "Employee",
+        "phone": "+17778889999",
+        "email": "mic.wilson@example.com",
+        "contactId": "E710"
+    },
+    {
+        "name": "smith Smith",
+        "type": "Employee",
+        "phone": "+1987654321",
+        "email": "smith.smith@example.com",
+        "contactId": "V496"
+    },
+    {
+        "name": "alen Johnson",
+        "type": "Employee",
+        "phone": "+1122334455",
+        "email": "alen.johnson@example.com",
+        "contactId": "E789"
+    },
+    {
+        "name": "sam Brown",
+        "type": "Vendor",
+        "phone": "+15556667777",
+        "email": "sam.brown@example.com",
+        "contactId": "C234"
+    },
+    {
+        "name": "sonum",
+        "type": "Vendor",
+        "phone": "+14443332222",
+        "email": "sonum.davis@example.com",
+        "contactId": "V367"
+    }
+]

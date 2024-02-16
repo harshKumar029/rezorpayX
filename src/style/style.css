@@ -1,0 +1,404 @@
+/* navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    position: fixed;
+    background-color: #080D29;
+    transition: background-color 0.1s ease;
+    transition: .12s ease-in-out;
+    z-index: 10;
+    border-right:1px solid rgba(231,232,236,.05)
+}
+
+.navbar{
+   /* background-color: #080D29; */
+   color: #CECFD4;
+   width: 50px;
+   height: 100vh;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* transition: background-color 0.5s ease; */
+
+
+   /* align-items: center; */
+   /* display: flex;
+   flex-direction: column;
+   justify-content: space-between; */
+}
+.nav_sec{
+  /* display: flex;
+  flex-direction: column; */
+  /* display: inline; */
+  overflow: hidden;
+  /* padding: 0px 10px; */
+}
+.sec2{
+    border-top:1px solid rgba(231,232,236,.05)
+    /* : rgba(231,232,236,.05); */
+}
+.nav_sec li{
+    margin: 23px 0px;
+    padding: 8px 16px;
+    padding-right: 70%;
+    width: min-content;
+    align-items: self-end;
+}
+.nav_sec li img{
+   width: 15px;
+   height: 15px;
+}
+.logo{
+    margin: 10px;
+}
+.xlogo{
+    width: 30px;
+}
+.RazorpayXlogo{
+    display: none;
+    width: 167px;
+    /* margin: 10px; */
+}
+.nav_sec li span{
+    padding-left: 20px;
+    white-space: nowrap;
+}
+.nav_sec li{
+    list-style-type: none;
+    display: flex;
+}
+.nav_bottom{
+    white-space: nowrap;
+    display: none;
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 0;
+    /* overflow: hidden; */
+
+}
+.nav_sec li:hover {
+    background-color: #383E5A;
+}
+#nav:hover{
+    display: flex;
+    background-color: #242a4a;
+}
+.navbar:hover{
+    /* transition-duration: 3s; */
+    background-color: #c7c8d0;
+    width: 250px;
+    transition-delay: 5s;
+    height: 100vh;
+    /* #nav{
+        display: none;
+    } */
+    .nav_bottom{
+        display: block;
+    }
+    .RazorpayXlogo{
+        display: block;
+    }
+    .xlogo{
+        display: none;
+    }
+}
+
+/* .nav_sec li span {
+    padding-left: 30px;
+    visibility: hidden;
+    transition: visibility 0.3s ease; 
+
+.nav_sec li:hover span {
+    visibility: visible;
+    
+} */
+
+/* header css */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    padding-top: 25px;
+}
+.leftheader{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.leftheader img{
+    width: 25px;
+    background-color: #1C2242;
+    padding: 5px;
+    border-radius: 5px;
+}
+.leftheader .single{
+    background-color: rgba(42,134,243,.1);
+    border-radius: 0.25rem;
+    color: #7fb2f9;
+    padding: 6px 16px;
+}
+.rigthheader{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.rigthheader img{
+    width: 110px;
+    /* height: 10px; */
+}
+.dropdown .payoutbutton{
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #7fb2f9;
+    /* border-color: 5px solid #7fb2f9; */
+    border:1px solid #7fb2f9;
+}
+.dropdown .payoutbutton .bar{
+    margin: 0px 6px;
+    color: rgba(231, 232, 236, .05);
+    height: 15px;
+}
+.dropdown span svg{
+    width: 15px;
+} 
+
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+}
+
+/* Style the dropdown button */
+.dropdown > div > span {
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    display: block;
+    padding: 10px 22px;
+    text-decoration: none;
+    color: #CECFD4;
+    background-color: #161D41;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #383E5A;
+}
+
+/* Show the dropdown content when hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.home_page{
+    /* padding-left: 90px; */
+}
+
+.header{
+    padding-left: 90px;
+    background-color: #080D29;
+    color: #CECFD4;
+}
+
+
+
+
+
+
+.filters{
+    
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    padding-left: 90px;
+    background-color: #111739;
+    color: #CECFD4;
+}
+.tabs span{
+    vertical-align: super;
+}
+.tabs .leftfilter button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 3px;
+    margin-left: 15px;
+    background: rgba(42,134,243,.1);
+    border: 1px solid rgba(42,134,243,.1);
+    color: #2a86f3;
+    padding: 10px 16px;
+    /* align-items: center; */
+}
+.dropbutton{
+    margin-right: 20px;
+}
+.dropbutton button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(42, 132, 243, 0);
+    border: none;
+    gap: 8px;
+    color: #7fb2f9;
+    /* width: 250px; */
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.dropbutton button svg{
+    width: 20px;
+}
+.dropbutton button:hover{
+    background-color: #0F1533;
+}
+
+.tab-content{
+    max-width: 90%;
+    /* padding: 20px 0px; */
+    margin-left: 90px;
+    color: #cecfd4cb;
+    /* margin-top: 30px; */
+}
+
+/* activecotacts csss */
+
+.activecotacts{
+    padding: 25px 0px;
+}
+.activecotacts,.right_activecotacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.export svg{
+    margin-right: 8px;
+}
+
+
+
+/* filter data css */
+
+
+
+.table tbody td{
+   margin: 10px;
+   /* display: none; */
+}
+
+.table-container {
+    padding: 10px 0px;
+    border-top: 1px solid #cecfd426;
+    border-bottom: 1px solid #cecfd426;
+    color: #cecfd4cb;
+  }
+  
+  .table-container table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 8px;
+  }
+  
+  .table-container th {
+    text-align: start;
+  }
+  
+
+@media only screen and (max-width: 897px) {
+    html {
+      font-size: 60%;
+    }
+    .tabs .leftfilter button{
+        font-size: 10px;
+        margin-left: 6px;
+        padding: 5px 9px;
+    }
+    .rigthheader img{
+        width: 80px;
+        /* height: 10px; */
+    }
+    .dropdown .payoutbutton{
+        font-size: 9px;
+        font-weight: 500;
+        padding: 7px 10px;
+        border-radius: 2px;
+    }
+    .dropdown .payoutbutton .bar{
+        margin: 0px 6px;
+        color: rgba(231, 232, 236, .05);
+        height: 15px;
+    }
+    .dropdown span svg{
+        width: 10px;
+    } 
+}
+
+@media only screen and (max-width: 618px) {
+    html {
+        font-size: 50%;
+        overflow-x: hidden;
+        white-space: nowrap;
+      }
+    .header{
+        padding-left: 65px;
+    }
+    .leftheader{
+        gap: 6px;
+    
+    }
+    .tabs{
+        padding-left: 65px;
+    }
+
+    .rigthheader{
+        margin-right: 10px;
+        gap: 7px;
+    
+    }
+    .rigthheader img{
+        width: 70px;
+    }
+    .dropdown .payoutbutton{
+        font-size: 8px;
+    }
+    .dropdown .payoutbutton .bar{
+        margin: 0px 1px;
+    }
+    /* .dropdown span svg{
+        width: 10px;
+    }  */
+}
